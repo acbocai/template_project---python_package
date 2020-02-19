@@ -102,5 +102,5 @@ python setup.py bdist_rpm
 python setup.py bdist_wininst  
 python setup.py bdist_msi  
 
-### &#8195;最后将包安装到其他电脑上
+### 4&#8195;最后将包安装到其他电脑上
 pip install xxxx\pack_name
