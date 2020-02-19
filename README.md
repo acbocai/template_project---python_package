@@ -29,7 +29,7 @@ project/
 import setuptools
 
 setuptools.setup(
-    # 包名称(该名称仅用于对外显示,比如pip list中看到的名字,与代码的引用无关)
+    # 包名称(该名称仅用于对外显示,比如pip list中看到的名字)
     name = "noob",
     version = "1.0",
     url="www.google.com",
