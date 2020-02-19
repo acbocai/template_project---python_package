@@ -3,15 +3,15 @@
 ### 1&#8195;setuptools
 负责打包代码的一个工具包
 
-### 安装setuptools
+### 2&#8195;安装setuptools
 python -m pip install --upgrade setuptools wheel
 
-### 如何打包代码?
+### 3&#8195;如何打包代码?
 1 以标准方式组织目录结构  
 2 创建setup.py文件,编写打包脚本  
 3 最后运行打包命令  
 
-### 标准目录结构是怎样的?
+### 4&#8195;标准目录结构是怎样的?
 project/  
 |-- package1/  
 |&#8195;&#8195;|-- \__init__.py  
@@ -23,7 +23,7 @@ project/
 |-- LICENSE  
 |-- setup.py  
 
-### 编写setup.py
+### 5&#8195;编写setup.py
 ```python
 import setuptools
 setuptools.setup(
@@ -63,7 +63,7 @@ setuptools.setup(
 )
 ```
 
-### 编写__init__.py
+### 6&#8195;编写__init__.py
 以一个叫say的包为例,
 sayHello.py的源代码为
 ```python
@@ -80,7 +80,7 @@ from __future__ import absolute_import
 from .sayHello import *
 ```
 
-### 执行打包命令
+### 7&#8195;执行打包命令
 sdist 表示源码包类型
 bdist 表示二进制包类型
 常见格式是egg\wheel\zip等
@@ -92,5 +92,5 @@ python setup.py bdist_rpm
 python setup.py bdist_wininst
 python setup.py bdist_msi
 
-### 将包安装到其他电脑上
+### 8&#8195;将包安装到其他电脑上
 pip install xxxx
