@@ -81,9 +81,10 @@ from .sayHello import *
 ```
 
 ### 7&#8195;执行打包命令
-sdist 表示源码包类型  
-bdist 表示二进制包类型  
-常见格式是egg\wheel\zip等  
+(1)sdist 表示源码包类型  
+(2)bdist 表示二进制包类型  
+(3)常见格式是egg\wheel\zip等  
+(4)默认输出目录为xxxx\project\dist\  
 python setup.py sdist  
 python setup.py bdist  
 python setup.py bdist_egg  
@@ -93,4 +94,4 @@ python setup.py bdist_wininst
 python setup.py bdist_msi  
 
 ### 8&#8195;将包安装到其他电脑上
-pip install xxxx
+pip install xxxx\pack_name
