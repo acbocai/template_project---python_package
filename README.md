@@ -4,7 +4,7 @@
 负责打包代码的一个工具包
 
 ### 2&#8195;安装setuptools
-python -m pip install --upgrade setuptools wheel
+pip install setuptools wheel
 
 ### 3&#8195;如何打包代码?
 1 以标准方式组织目录结构  
