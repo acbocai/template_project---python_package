@@ -1,17 +1,18 @@
 # A simple template
 
-### 1&#8195;setuptools
-负责打包代码的一个工具包
+### 1&#8195;setuptools是什么?
+python的一个流行工具包,用于打包代码.
 
 ### 2&#8195;安装setuptools
 pip install setuptools wheel
 
-### 3&#8195;如何打包代码?
-1 以标准方式组织目录结构  
-2 创建并编写setup.py文件,作为打包脚本.  
-3 最后运行打包命令  
+### 3&#8195;如何使用setuptools打包代码?
+(1)以标准目录结构组织工程  
+(2)为每个包创建__init__.py文件.  
+(3)创建并编写setup.py文件,作为打包脚本.  
+(4)最后运行打包命令  
 
-### 4&#8195;标准目录结构是怎样的?  
+### (1)&#8195;标准目录结构是怎样的?  
 以本工程为例
 project/  
 |-- package1/  
@@ -24,7 +25,24 @@ project/
 |-- LICENSE  
 |-- setup.py  
 
-### 5&#8195;如何编写setup.py?
+### (2)&#8195;编写__init__.py
+以本工程为例中一个叫say的包为例,
+sayHello.py的源代码为
+```python
+def say_hello():
+    print("hello")
+
+def say_bye():
+    print("bye")
+```
+
+\__init__.py的源代码为
+```python
+from __future__ import absolute_import
+from .sayHello import *
+```
+
+### (3)&#8195;如何编写setup.py?
 ```python
 import setuptools
 
@@ -70,24 +88,7 @@ setuptools.setup(
 )
 ```
 
-### 6&#8195;编写__init__.py
-以本工程为例中一个叫say的包为例,
-sayHello.py的源代码为
-```python
-def say_hello():
-    print("hello")
-
-def say_bye():
-    print("bye")
-```
-
-\__init__.py的源代码为
-```python
-from __future__ import absolute_import
-from .sayHello import *
-```
-
-### 7&#8195;执行打包命令
+### (4)&#8195;执行打包命令
 (1)sdist 表示源码包类型  
 (2)bdist 表示二进制包类型  
 (3)常见格式是egg\wheel\zip等  
