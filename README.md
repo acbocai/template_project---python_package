@@ -47,6 +47,7 @@ setuptools.setup(
 
     # 指出哪些文件夹有包要处理(通常为包含 __init__.py的文件夹)
     packages = ['play','say','tool'],
+    
     # py_modules        需要打包的py源代码单文件列表
     # package_dir       指定哪些目录下的文件被映射到哪个源码包
 
