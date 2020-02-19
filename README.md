@@ -8,10 +8,11 @@ pip install setuptools wheel
 
 ### 3&#8195;如何打包代码?
 1 以标准方式组织目录结构  
-2 创建setup.py文件,编写打包脚本  
+2 创建并编写setup.py文件,作为打包脚本.
 3 最后运行打包命令  
 
-### 4&#8195;标准目录结构是怎样的?
+### 4&#8195;标准目录结构是怎样的?  
+以本工程为例
 project/  
 |-- package1/  
 |&#8195;&#8195;|-- \__init__.py  
@@ -23,7 +24,7 @@ project/
 |-- LICENSE  
 |-- setup.py  
 
-### 5&#8195;编写setup.py
+### 5&#8195;如何编写setup.py?
 ```python
 import setuptools
 
