@@ -12,16 +12,16 @@ python -m pip install --upgrade setuptools wheel
 3 最后运行打包命令  
 
 ### 标准目录结构是怎样的?
-project/
-|-- package1/
-|   |-- \__init__.py
-|   |-- aaa.py
-|-- package2/
-|   |-- \__init__.py
-|   |-- bbb.py
-|-- README
-|-- LICENSE
-|-- setup.py
+project/  
+|-- package1/  
+|   |-- \__init__.py  
+|   |-- aaa.py  
+|-- package2/  
+|   |-- \__init__.py  
+|   |-- bbb.py  
+|-- README  
+|-- LICENSE  
+|-- setup.py  
 
 ### 编写setup.py
 ```python
