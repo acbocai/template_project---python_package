@@ -7,7 +7,7 @@ python的一个流行工具包,用于打包代码.
 pip install setuptools wheel
 
 ### 3&#8195;如何使用setuptools打包代码?
-(1)以标准目录结构组织工程  
+(1)以setuptools的标准目录结构组织工程  
 (2)为每个包创建__init__.py文件.  
 (3)创建并编写setup.py文件,作为打包脚本.  
 (4)最后运行打包命令  
