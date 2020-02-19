@@ -92,8 +92,9 @@ setuptools.setup(
 (1)sdist 表示源码包类型  
 (2)bdist 表示二进制包类型  
 (3)常见格式是egg\wheel\zip等  
-(4)默认输出目录为xxxx\project\dist\  
+(4)默认输出目录为xxxx\project目录\dist\  
 
+任选一个包格式
 python setup.py sdist  
 python setup.py bdist  
 python setup.py bdist_egg  
