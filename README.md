@@ -14,11 +14,11 @@ python -m pip install --upgrade setuptools wheel
 ### 标准目录结构是怎样的?
 project/  
 |-- package1/  
-|   |-- \__init__.py  
-|   |-- aaa.py  
+|&nbsp;|-- \__init__.py  
+|&nbsp;|-- aaa.py  
 |-- package2/  
-|   |-- \__init__.py  
-|   |-- bbb.py  
+|&nbsp;|-- \__init__.py  
+|&nbsp;|-- bbb.py  
 |-- README  
 |-- LICENSE  
 |-- setup.py  
