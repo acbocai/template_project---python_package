@@ -88,7 +88,7 @@ setuptools.setup(
 )
 ```
 
-### (4)&#8195;执行setup.py,输出打包后的包
+### (4)&#8195;执行setup.py,输出打包后的包文件
 (1)sdist 表示源码包类型  
 (2)bdist 表示二进制包类型  
 (3)常见格式是egg\wheel\zip等  
