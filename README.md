@@ -10,7 +10,7 @@ pip install setuptools wheel
 (1)以setuptools的标准目录结构组织工程  
 (2)为每个包创建__init__.py文件.  
 (3)创建并编写setup.py文件,作为打包脚本.  
-(4)最后运行打包命令  
+(4)最后运行setup.py打包脚本.  
 
 ### (1)&#8195;标准目录结构是怎样的?  
 以本工程为例
