@@ -70,7 +70,7 @@ setuptools.setup(
 ```
 
 ### 6&#8195;编写__init__.py
-以一个叫say的包为例,
+以该模板工程中一个叫say的包为例,
 sayHello.py的源代码为
 ```python
 def say_hello():
