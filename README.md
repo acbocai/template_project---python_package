@@ -7,9 +7,9 @@
 python -m pip install --upgrade setuptools wheel
 
 #### 如何打包代码?
-1 以标准方式组织目录结构
-2 创建setup.py文件,编写打包脚本
-3 最后运行打包命令
+1 以标准方式组织目录结构  
+2 创建setup.py文件,编写打包脚本  
+3 最后运行打包命令  
 
 #### 标准目录结构是怎样的?
 project/
